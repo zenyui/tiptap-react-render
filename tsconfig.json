@@ -10,7 +10,7 @@
     // Added
     "rootDir": "src",
     "declarationMap": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "module": "ESNext",
     "declaration": true,
     "declarationDir": "types",
@@ -19,5 +19,7 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
-  }
+
+    "types": ["@testing-library/jest-dom"],
+  },
 }

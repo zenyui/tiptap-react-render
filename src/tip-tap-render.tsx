@@ -6,10 +6,10 @@ import React from 'react';
  * @param {NodeHandlers} handlers a handler for each node type
  * @returns tree of components as react elements
  */
-export function TipTapRender(props: {node: TipTapNode, handlers: NodeHandlers}): JSX.Element {
+export function TipTapRender(props: {node: TipTapNode, handlers: NodeHandlers}): React.JSX.Element {
   const {node, handlers: mapping} = props;
   // recursively render child content
-  const children: JSX.Element[] = [];
+  const children: React.JSX.Element[] = [];
   node.content && node.content.forEach((child, ix) => {
     children.push(
       <TipTapRender
@@ -46,7 +46,7 @@ export interface NodeProps {
   node: TipTapNode;
 }
 
-export type NodeHandler = (props: NodeProps) => JSX.Element
+export type NodeHandler = (props: NodeProps) => React.JSX.Element
 
 export interface NodeHandlers {
   readonly [attr: string]: NodeHandler
