@@ -1,6 +1,6 @@
 {
   "name": "@zenyui/tiptap-react-render",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Render TipTap JSON in React without the editor!",
   "scripts": {
     "rollup": "rollup -c",
