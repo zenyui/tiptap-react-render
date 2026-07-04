@@ -160,7 +160,7 @@ describe("TipTapRender", () => {
       "link": link,
     }
     // paragraph with link in it
-    const url: string = "https://www.npmjs.com/package/@troop.com/tiptap-react-render"
+    const url: string = "https://www.npmjs.com/package/@zenyui/tiptap-react-render"
     const p1: TipTapNode = {
       type: "paragraph",
       content: [
