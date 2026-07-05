@@ -1,7 +1,11 @@
 # TipTap React Render
 
+<!-- TODO: switch to @zenyui badges once download counts pick up
 [![npm](https://img.shields.io/npm/v/@zenyui/tiptap-react-render.svg?style=flat)](https://www.npmjs.com/package/@zenyui/tiptap-react-render)
 [![npm](https://img.shields.io/npm/dt/@zenyui/tiptap-react-render)](https://www.npmjs.com/package/@zenyui/tiptap-react-render)
+-->
+[![npm](https://img.shields.io/npm/v/@troop.com/tiptap-react-render.svg?style=flat)](https://www.npmjs.com/package/@troop.com/tiptap-react-render)
+[![npm](https://img.shields.io/npm/dt/@troop.com/tiptap-react-render)](https://www.npmjs.com/package/@troop.com/tiptap-react-render)
 
 This library renders [TipTap](https://tiptap.dev/) JSON payloads in React clients without embedding the editor.
 
