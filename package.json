@@ -1,13 +1,18 @@
 {
-  "name": "@troop.com/tiptap-react-render",
-  "version": "0.0.3",
+  "name": "@zenyui/tiptap-react-render",
+  "version": "0.1.0",
   "description": "Render TipTap JSON in React without the editor!",
   "scripts": {
     "rollup": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
   },
-  "author": "troop.com",
+  "author": "zenyui",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
@@ -39,6 +44,6 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/troop-dev/tiptap-react-render"
+    "url": "https://github.com/zenyui/tiptap-react-render"
   }
 }
